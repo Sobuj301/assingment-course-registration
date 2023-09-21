@@ -1,0 +1,66 @@
+[
+    {
+      "course_name": "javascript fundamentals",
+      "img": "https://i.ibb.co/0Q13BK1/Rectangle-2-1.png",
+      "price": 1000,
+      "credit": 3,
+      "details": "Learn the basics of JavaScript programming with hands-on exercises."
+    },
+    {
+      "course_name": "web development with React",
+      "img": "https://i.ibb.co/kQrxBbH/Rectangle-2-2.png",
+      "price": 1100,
+      "credit": 4,
+      "details": "Master React.js and build modern web applications with this comprehensive course."
+    },
+    {
+      "course_name": "python for beginners",
+      "img": "https://i.ibb.co/tXbbFd0/Rectangle-2-3.png",
+      "price": 1200,
+      "credit": 5,
+      "details": "Start your journey in Python programming with easy-to-follow tutorials."
+    },
+    {
+      "course_name": "data science with Python",
+      "img": "https://i.ibb.co/CMmXPc6/Rectangle-2-4.png",
+      "price": 1300,
+      "credit": 6,
+      "details": "Dive into data science and machine learning using Python and popular libraries."
+    },
+    {
+      "course_name": "frontend web design",
+      "img": "https://i.ibb.co/GHyW6mB/Rectangle-2-5.png",
+      "price": 1400,
+      "credit": 7,
+      "details": "Create stunning web designs with HTML, CSS, and JavaScript."
+    },
+    {
+      "course_name": "mobile app development",
+      "img": "https://i.ibb.co/x2HcHfD/Rectangle-2-6.png",
+      "price": 1500,
+      "credit": 8,
+      "details": "Build cross-platform mobile apps using React Native and other technologies."
+    },
+    {
+      "course_name": "databases and SQL",
+      "img": "https://i.ibb.co/GWJw9nN/Rectangle-3.png",
+      "price": 1600,
+      "credit": 9,
+      "details": "Master database management and SQL for efficient data handling."
+    },
+    {
+      "course_name": "full-stack web development",
+      "img": "https://i.ibb.co/G358gDp/Rectangle-3-1.png",
+      "price": 1700,
+      "credit": 10,
+      "details": "Become a full-stack developer by learning both frontend and backend technologies."
+    },
+    {
+      "course_name": "cybersecurity essentials",
+      "img": "https://i.ibb.co/FJVMFjV/Rectangle-2.png",
+      "price": 1800,
+      "credit": 11,
+      "details": "Enhance your knowledge of cybersecurity and protect digital assets."
+    }
+  ]
+  
