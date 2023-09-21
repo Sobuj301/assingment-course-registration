@@ -1,9 +1,16 @@
+import Name from "../Name/Name";
 
-
-const Course = () => {
+const Course = ({course}) => {
+    
     return (
         <div className="md:w-1/3">
-            <h2>Course Name:</h2>
+            <h2>Course Name:{course.length}</h2>
+            {
+              course.map(name => <Name
+              key={name.credit}
+              name={name}
+              ></Name>)
+            }
         </div>
     );
 };

@@ -1,6 +1,6 @@
 
 
-const Card = ({card}) => {
+const Card = ({card,handleAdCourse}) => {
     const{img,course_name,details,price,credit} = card
     return (
         <div className="bg-slate-100 p-4 rounded-lg">
@@ -11,7 +11,7 @@ const Card = ({card}) => {
          <p>$ price:{price}</p>
          <p> credit:{credit} hr</p>
          </div>
-         <button className="bg-blue-500 text-white py-1 px-14 rounded-xl  "> select </button>
+         <button onClick={()=>handleAdCourse(card)} className="bg-blue-500 text-white py-1 px-14 rounded-xl  "> select </button>
         </div>
     );
 };
