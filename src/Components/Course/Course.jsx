@@ -1,3 +1,5 @@
+
+import Credit from "../Credit/Credit";
 import Name from "../Name/Name";
 
 const Course = ({course}) => {
@@ -10,7 +12,20 @@ const Course = ({course}) => {
               key={index}
               name={name}
               ></Name>)
+              
             }
+            
+            <h2 className="mt-10">Total Credit:</h2>
+            {
+               course.map((credits,index) => <Credit
+               key={index}
+               credits={credits}
+               ></Credit>) 
+            }
+            
+            
+
+        
         </div>
     );
 };

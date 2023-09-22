@@ -6,10 +6,15 @@ import Header from './Components/Header/Header'
 
 function App() {
   const [course, setCourse] = useState([])
+  // const [credits,setCredits] =useState(0)
   
   const handleAdCourse = (card)=>{
     const newCourse = [...course,card]
     setCourse(newCourse)
+    
+    // const newCredits = [...credits + card]
+    // setCredits(newCredits)
+
     
   }
   return (

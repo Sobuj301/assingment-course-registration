@@ -11,7 +11,7 @@ const Card = ({card,handleAdCourse}) => {
          <p>$ price:{price}</p>
          <p> credit:{credit} hr</p>
          </div>
-         <button onClick={()=> handleAdCourse(card)}   className="bg-blue-500 text-white py-1 px-14 rounded-xl  "> select </button>
+         <button onClick={()=> handleAdCourse(card)}   className="w-full bg-blue-500 text-white py-1 px-4 rounded-xl mb-3 "> select </button>
         </div>
     );
 };
