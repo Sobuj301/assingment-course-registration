@@ -3,11 +3,11 @@ import Name from "../Name/Name";
 const Course = ({course}) => {
     
     return (
-        <div className="md:w-1/3">
-            <h2>Course Name:{course.length}</h2>
+        <div className="w-72 h-80 bg-slate-100 rounded-2xl p-6">
+            <h2 className="mb-3" >Course Name:{course.length}</h2>
             {
-              course.map(name => <Name
-              key={name.credit}
+              course.map((name,index) => <Name
+              key={index}
               name={name}
               ></Name>)
             }

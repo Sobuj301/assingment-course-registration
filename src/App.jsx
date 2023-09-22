@@ -6,16 +6,16 @@ import Header from './Components/Header/Header'
 
 function App() {
   const [course, setCourse] = useState([])
-
-
+  
   const handleAdCourse = (card)=>{
     const newCourse = [...course,card]
     setCourse(newCourse)
+    
   }
   return (
     <>
      <Header></Header>
-     <div className='flex gap-6  max w-7xl m-auto'>
+     <div className='flex gap-6 max-w-7xl m-auto'>
        <Cards
         handleAdCourse={handleAdCourse}
        ></Cards>
